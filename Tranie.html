@@ -1,0 +1,193 @@
+
+<Head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   
+   <style>
+
+.container {  display: grid;
+  grid-template-columns: 0.1fr 0.6fr 0.1fr 1.7fr 2.5fr 0.1fr 2.4fr 2.5fr 0.1fr 0.1fr;
+  grid-template-rows: 0.1fr 0.6fr 0.2fr 2.7fr 0.4fr 2.7fr 0.4fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "d6 d6 d6 d6 d6 d6 d6 d6 d6 d6"
+    "d5 logo . title title title title title d4 d4"
+    "d5 d1 d1 d1 d1 d1 d1 d1 d4 d4"
+    "d5 p1 p1 p1 nq1 d7 pic2 nq2 d4 d4"
+    "d5 d2 d2 d2 d2 d2 d2 d2 d4 d4"
+    "d5 p3 p3 p3 nq3 d8 p4 nq4 d4 d4"
+    "d5 d3 d3 d3 d3 d3 d3 d3 d4 d4";
+background-image: url("images/office_with_people.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width:2550px;
+height:1287px;
+
+  }
+
+
+
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-serif-thin {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.logo { grid-area: logo; }
+
+.title { grid-area: title; 
+text-align: center;
+font-size:6rem;
+color: rgb(255, 255, 255);
+}
+
+.p1 { grid-area: p1; 
+
+}
+
+.nq1 { grid-area: nq1; 
+    background: rgba(13, 17, 17, 0.8);
+    border: 8px solid rgba(23, 34, 34, 0.97);
+    font-size: 5rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.pic2 { grid-area: pic2; 
+
+}
+
+.nq2 { grid-area: nq2; 
+    background: rgba(13, 17, 17, 0.8);
+    border: 8px solid rgba(23, 34, 34, 0.97);
+    font-size: 5rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.p3 { grid-area: p3; 
+
+}
+
+.nq3 { grid-area: nq3; 
+    background: rgba(13, 17, 17, 0.8);
+    border: 8px solid rgba(23, 34, 34, 0.97);
+    font-size: 4rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.p4 { grid-area: p4; 
+
+}
+
+.nq4 { grid-area: nq4; 
+    background: rgba(13, 17, 17, 0.8);
+    border: 8px solid rgba(23, 34, 34, 0.97);
+    font-size: 4rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.d1 { grid-area: d1; }
+
+.d2 { grid-area: d2; }
+
+.d3 { grid-area: d3; }
+
+.d4 { grid-area: d4; }
+
+.d5 { grid-area: d5; }
+
+.d6 { grid-area: d6; }
+
+.d7 { grid-area: d7; }
+
+.d8 { grid-area: d8; }
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 30px;
+}
+
+
+   </style>
+</head>
+
+
+
+
+<body>
+
+<div class="container">
+  <div class="logo"><a href="index.html">
+  <img src="images/Webexe_transparent-.png" alt="Click me" width="200">
+</a></div>
+  <div class="title fira-sans-regular">About are traniees</div>
+  <div class="p1"><img src="images/p1 (1).jpg"></div>
+  <div class="nq1 fira-sans-regular">Jodie Hardy<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mollis fringilla. Morbi dictum nec justo sed bibendum. Pellentesque porttitor hendrerit nulla, vel suscipit dolor vehicula semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras id risus vel tortor fringilla pellentesque et ac massa.</p></div>
+  <div class="pic2"><img src="images/p2.jpeg"></div>
+  <div class="nq2 fira-sans-regular">Amelia North<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus, augue in pretium malesuada, orci neque tempor nibh, sit amet commodo tellus massa sit amet nunc. Vivamus nec consectetur arcu, ut molestie orci. Ut sit amet efficitur mi. Nullam rutrum faucibus eros, vitae auctor nunc fermentum id. Vivamus quam eros.</p></div>
+  <div class="p3"><img src="images/p3.jpeg"></div>
+  <div class="nq3 fira-sans-regular">Jennifer Manning<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales ex sapien, et imperdiet libero dignissim et. Duis tempor lacus eget sem vestibulum interdum. Nunc varius, justo in convallis vehicula, tellus eros euismod magna, eget mattis sem risus vel neque. Maecenas nisi quam, cursus nec semper in, lacinia id lectus.</p></div>
+  <div class="p4"><img src="images/p5.jpeg"></div>
+  <div class="nq4 fira-sans-regular">James Middleton<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non nulla arcu. Suspendisse potenti. Nulla molestie non erat aliquam rutrum. Vestibulum non ultricies dui. Vestibulum vel ultricies quam. Pellentesque nec tortor ullamcorper, tempor metus eget, placerat arcu. Curabitur semper, nunc non finibus feugiat, libero augue tempus nibh, vel imperdiet tortor.</p></div>
+  <div class="d1"></div>
+  <div class="d2"></div>
+  <div class="d3"></div>
+  <div class="d4"></div>
+  <div class="d5"></div>
+  <div class="d6"></div>
+  <div class="d7"></div>
+  <div class="d8"></div>
+</div>
+
+
+
+
+</body>
